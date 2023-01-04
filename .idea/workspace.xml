@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3fd398-f215-4019-a624-fdd5705f2a74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Jogador.java" afterDir="false" />
+    <list default="true" id="7e3fd398-f215-4019-a624-fdd5705f2a74" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" afterDir="false" />
     </list>
@@ -64,8 +65,16 @@
       <option name="presentableId" value="Default" />
       <updated>1672797746347</updated>
       <workItem from="1672797748227" duration="8779000" />
-      <workItem from="1672846238804" duration="5632000" />
+      <workItem from="1672846238804" duration="8920000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1672852204016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672852204016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
