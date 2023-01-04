@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672797746347</updated>
       <workItem from="1672797748227" duration="8779000" />
-      <workItem from="1672846238804" duration="8920000" />
+      <workItem from="1672846238804" duration="9630000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1672852204016</created>

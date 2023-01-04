@@ -2,12 +2,12 @@ package dominio;
 
 public class Time {
    private Integer id;
-   private String name;
+   private String nome;
 
 
     public static final class TimeBuilder {
         private Integer id;
-        private String name;
+        private String nome;
 
         private TimeBuilder() {
         }
@@ -21,15 +21,15 @@ public class Time {
             return this;
         }
 
-        public TimeBuilder name(String name) {
-            this.name = name;
+        public TimeBuilder name(String nome) {
+            this.nome = nome;
             return this;
         }
 
         public Time build() {
             Time time = new Time();
             time.id = this.id;
-            time.name = this.name;
+            time.nome = this.nome;
             return time;
         }
     }
