@@ -10,7 +10,6 @@ import java.sql.Statement;
 
 public class TimeRepositorio {
     public static void save(Time time){
-        String sql = "INSERT INTO `futebol`.`times` (`nome`) VALUES ('teste');";
         try(Connection con = Conexao.getConnection();
             PreparedStatement ps = conSalvar(con, time)){
             ps.executeUpdate();
