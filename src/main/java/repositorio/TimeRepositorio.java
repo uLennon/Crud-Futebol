@@ -23,4 +23,19 @@ public class TimeRepositorio {
          ps.setString(1,time.getNome());
          return ps;
     }
+
+    public static void deletar(int id){
+        try (Connection con = Conexao.getConnection();
+             PreparedStatement ps = conDeletar(con, id)) {
+            ps.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+    private static PreparedStatement conDeletar(Connection con, Integer id) throws SQLException {
+        String sql = "DELETE FROM `futebol`.`times` WHERE (`id` = ?);";
+        PreparedStatement ps = con.prepareStatement(sql);
+        ps.setInt(1, id);
+        return ps;
+    }
 }

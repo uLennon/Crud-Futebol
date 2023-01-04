@@ -14,4 +14,9 @@ public class TimeServico {
         Time time = Time.TimeBuilder.builder().name(nome).build();
         TimeRepositorio.save(time);
     }
+    private static void deletar(){
+        System.out.println("Escolha o id do time para deletar");
+        int id = Integer.parseInt(SCANNER.nextLine());
+        TimeRepositorio.deletar(id);
+    }
 }
