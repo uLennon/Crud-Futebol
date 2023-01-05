@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7e3fd398-f215-4019-a624-fdd5705f2a74" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repositorio/TimeRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repositorio/TimeRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servico/TimeServico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servico/TimeServico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/teste/ConexaoTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teste/ConexaoTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Jogador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,7 @@
       <workItem from="1672846238804" duration="21415000" />
       <workItem from="1672891819804" duration="2408000" />
       <workItem from="1672895814257" duration="25000" />
-      <workItem from="1672946347968" duration="4675000" />
+      <workItem from="1672946347968" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1672852204016</created>
