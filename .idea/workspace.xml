@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3fd398-f215-4019-a624-fdd5705f2a74" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/futt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/futt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repositorio/TimeRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repositorio/TimeRepositorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servico/TimeServico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servico/TimeServico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/teste/ConexaoTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/teste/ConexaoTeste.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <workItem from="1672846238804" duration="21415000" />
       <workItem from="1672891819804" duration="2408000" />
       <workItem from="1672895814257" duration="25000" />
-      <workItem from="1672946347968" duration="1226000" />
+      <workItem from="1672946347968" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1672852204016</created>

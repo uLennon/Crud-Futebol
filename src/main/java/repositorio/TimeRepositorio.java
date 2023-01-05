@@ -15,6 +15,7 @@ public class TimeRepositorio {
             e.printStackTrace();
         }
     }
+
     private static PreparedStatement conSalvar(Connection con,Time time) throws SQLException {
          String sql = "INSERT INTO `futebol`.`times` (`nome`)  VALUES (?);";
          PreparedStatement ps = con.prepareStatement(sql);
@@ -30,6 +31,7 @@ public class TimeRepositorio {
             e.printStackTrace();
         }
     }
+
     private static PreparedStatement conDeletar(Connection con, Integer id) throws SQLException {
         String sql = "DELETE FROM `futebol`.`times` WHERE (`id` = ?);";
         PreparedStatement ps = con.prepareStatement(sql);
@@ -47,13 +49,12 @@ public class TimeRepositorio {
     }
 
     private static PreparedStatement conAtualizar(Connection con, Time time) throws SQLException {
-        String sql = "UPDATE `futebol`.`times` SET `nome` = ? WHERE (`id` = ?);";
+        String sql = "UPDATE `futebol`.`times` SET `nome`=? WHERE (`id`=?);";
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setString(1,time.getNome());
         ps.setInt(2, time.getId());
         return ps;
     }
-
 
 
     public static Optional<Time> buscaID(Integer id){
@@ -64,7 +65,7 @@ public class TimeRepositorio {
             return Optional.of(Time.TimeBuilder
                                 .builder()
                                 .id(rs.getInt("id"))
-                                .name(rs.getString("name"))
+                                .name(rs.getString("nome"))
                                 .build());
         } catch (SQLException e) {
             e.printStackTrace();

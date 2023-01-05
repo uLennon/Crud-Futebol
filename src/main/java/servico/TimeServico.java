@@ -39,4 +39,10 @@ public class TimeServico {
                 .build();
         TimeRepositorio.atualizar(timeAtualizado);
     }
+
+    public static void buscaId(){
+        System.out.println("Digite o id para buscar.");
+        int id = Integer.parseInt(SCANNER.nextLine());
+        TimeRepositorio.buscaID(id);
+    }
 }
