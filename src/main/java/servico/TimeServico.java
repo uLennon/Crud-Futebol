@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class TimeServico {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    private void salvar(){
+    public static void salva(){
         System.out.println("Digite o nome do time.");
         String nome = SCANNER.nextLine();
         Time time = Time.TimeBuilder.builder().name(nome).build();
-        TimeRepositorio.save(time);
+        TimeRepositorio.salvar(time);
     }
-    private static void deletar(){
+    public static void deletar(){
         System.out.println("Escolha o id do time para deletar.");
         int id = Integer.parseInt(SCANNER.nextLine());
         TimeRepositorio.deletar(id);

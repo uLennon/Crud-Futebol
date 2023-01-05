@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3fd398-f215-4019-a624-fdd5705f2a74" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conn/Conexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/futt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/futt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorio/TimeRepositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servico/TimeServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/ConexaoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,49 @@
       <recent name="dominio" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.ConexaoTeste">
+    <configuration name="ConexaoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.ConexaoTeste" />
+      <module name="futt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConexaoTeste" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +112,10 @@
       <option name="presentableId" value="Default" />
       <updated>1672797746347</updated>
       <workItem from="1672797748227" duration="8779000" />
-      <workItem from="1672846238804" duration="15996000" />
+      <workItem from="1672846238804" duration="21415000" />
+      <workItem from="1672891819804" duration="2408000" />
+      <workItem from="1672895814257" duration="25000" />
+      <workItem from="1672946347968" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1672852204016</created>

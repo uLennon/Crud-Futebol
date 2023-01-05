@@ -7,16 +7,16 @@ import java.sql.*;
 import java.util.Optional;
 
 public class TimeRepositorio {
-    public static void save(Time time){
+    public static void salvar(Time time){
         try(Connection con = Conexao.getConnection();
             PreparedStatement ps = conSalvar(con, time)){
-            ps.executeUpdate();
+            ps.execute();
         }catch (SQLException e){
             e.printStackTrace();
         }
     }
     private static PreparedStatement conSalvar(Connection con,Time time) throws SQLException {
-         String sql = "INSERT INTO `futebol`.`times` (`nome`) VALUES (?);";
+         String sql = "INSERT INTO `futebol`.`times` (`nome`)  VALUES (?);";
          PreparedStatement ps = con.prepareStatement(sql);
          ps.setString(1,time.getNome());
          return ps;
@@ -47,7 +47,7 @@ public class TimeRepositorio {
     }
 
     private static PreparedStatement conAtualizar(Connection con, Time time) throws SQLException {
-        String sql = "UPDATE `futebol`.`times` SET `name` = ? WHERE (`id` = ?);";
+        String sql = "UPDATE `futebol`.`times` SET `nome` = ? WHERE (`id` = ?);";
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setString(1,time.getNome());
         ps.setInt(2, time.getId());
