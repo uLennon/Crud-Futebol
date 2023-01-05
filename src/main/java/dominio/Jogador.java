@@ -1,5 +1,7 @@
 package dominio;
 
+import java.util.Objects;
+
 public class Jogador {
     private Integer id;
     private String nome;
@@ -40,5 +42,51 @@ public class Jogador {
             jogador.nome = this.nome;
             return jogador;
         }
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Integer getCamisa() {
+        return camisa;
+    }
+
+    public void setCamisa(Integer camisa) {
+        this.camisa = camisa;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Jogador jogador = (Jogador) o;
+        return Objects.equals(id, jogador.id) && Objects.equals(nome, jogador.nome) && Objects.equals(camisa, jogador.camisa);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nome, camisa);
+    }
+
+    @Override
+    public String toString() {
+        return "Jogador{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", camisa=" + camisa +
+                '}';
     }
 }
